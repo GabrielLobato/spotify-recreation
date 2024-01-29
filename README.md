@@ -1,26 +1,26 @@
-# Spotify Clone <img src=".\src\screenshots\Spotify_icon.png" alt="Spotify_icon" style="zoom:25%;" />
+# <img src=".\src\screenshots\Spotify_icon.png" alt="Spotify_icon" style="zoom:25%;" /> Spotify Clone 
 
 Este projeto foi desenvolvido como parte da minha jornada de aprendizado durante a Imersão Front-End da Alura. A Imersão Front-End me proporcionou uma excelente oportunidade para aprimorar minhas habilidades de desenvolvimento web.
 
 ## Conteúdo
 
-- [Descrição](#descricao)
+- [Descrição](#descrição)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Como Usar](#como-usar)
 - [Capturas de Tela](#capturas-de-tela)
 - [Contribuindo](#contribuindo)
 
-## Descrição {#descricao}
+## Descrição
 
 O projeto consiste em recriar a página inicial do Spotify, capturando o design e a aparência do site oficial. Não há intenção de violar direitos autorais ou infringir termos de uso, este projeto é puramente educacional.
 
-## Tecnologias Utilizadas {#tecnologias-usadas}
+## Tecnologias Utilizadas
 
 - HTML5
 - CSS3
 - JavaScript
 
-## Como Usar {#como-usar}
+## Como Usar
 
 1. Clone este repositório: `git clone https://github.com/GabrielLobato/spotify-recreation.git`
 2. instale o Node.Js em sua máquina: `https://nodejs.org/en/download`.
@@ -29,14 +29,14 @@ O projeto consiste em recriar a página inicial do Spotify, capturando o design 
 5. Abra o arquivo `index.html` em seu navegador.
 6. Pronto para uso.
 
-## Capturas de Tela {#capturas-de-tela}
+## Capturas de Tela
 
-![main-page](.\src\screenshots\main-page.png)
+![main-page](https://raw.githubusercontent.com/GabrielLobato/spotify-recreation/master/src/screenshots/main-page.png)
 
-![search](.\src\screenshots\search.png)
+![search](https://github.com/GabrielLobato/spotify-recreation/blob/master/src/screenshots/search.png?raw=true)
 
-![artists-list](.\src\screenshots\artists-list.png)
+![artists-list](https://github.com/GabrielLobato/spotify-recreation/blob/master/src/screenshots/artists-list.png?raw=true)
 
-## Contribuindo {#contribuindo}
+## Contribuindo
 
 Sinta-se à vontade para contribuir para este projeto! Você pode abrir problemas para relatar bugs ou sugerir melhorias. Se quiser adicionar alguma funcionalidade, sinta-se à vontade para enviar uma solicitação de pull.
