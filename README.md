@@ -1,4 +1,4 @@
-# <img src="https://github.com/GabrielLobato/spotify-recreation/blob/master/src/screenshots/Spotify_icon.png?raw=true" alt="Spotify_icon" width = 50 /> Spotify Clone 
+# <img src="https://github.com/GabrielLobato/spotify-recreation/blob/master/src/screenshots/Spotify_icon.png?raw=true" alt="Spotify_icon" width = 50 />  Spotify Clone 
 
 Este projeto foi desenvolvido como parte da minha jornada de aprendizado durante a Imersão Front-End da Alura. A Imersão Front-End me proporcionou uma excelente oportunidade para aprimorar minhas habilidades de desenvolvimento web.
 
@@ -30,12 +30,28 @@ O projeto consiste em recriar a página inicial do Spotify, capturando o design 
 6. Pronto para uso.
 
 ## Capturas de Tela
-
-![main-page](https://raw.githubusercontent.com/GabrielLobato/spotify-recreation/master/src/screenshots/main-page.png)
-
-![search](https://github.com/GabrielLobato/spotify-recreation/blob/master/src/screenshots/search.png?raw=true)
-
-![artists-list](https://github.com/GabrielLobato/spotify-recreation/blob/master/src/screenshots/artists-list.png?raw=true)
+<table>
+<tr>
+	<td>Página Inicial</td>
+	<td>Página de resultado de pesquisa</td>
+</tr>
+<tr>
+	<td>
+        <img src = "https://raw.githubusercontent.com/GabrielLobato/spotify-recreation/master/src/screenshots/main-page.png" width = 500>
+	</td>
+	<td>
+        <img src = "https://github.com/GabrielLobato/spotify-recreation/blob/master/src/screenshots/search.png?raw=true" width = 500>
+	</td>
+</tr>
+<tr>
+    <td>API Rest artists.json</td>
+</tr>
+<tr>
+    <td>
+    	<img src = "https://github.com/GabrielLobato/spotify-recreation/blob/master/src/screenshots/artists-list.png?raw=true" width = 500>
+    </td>
+</tr>
+</table>
 
 ## Contribuindo
 
