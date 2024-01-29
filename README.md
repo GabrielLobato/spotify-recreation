@@ -1,4 +1,4 @@
-# <img src="https://github.com/GabrielLobato/spotify-recreation/blob/master/src/screenshots/Spotify_icon.png?raw=true" alt="Spotify_icon" style="zoom:15%;" /> Spotify Clone 
+# <img src="https://github.com/GabrielLobato/spotify-recreation/blob/master/src/screenshots/Spotify_icon.png?raw=true" alt="Spotify_icon" width = 50 /> Spotify Clone 
 
 Este projeto foi desenvolvido como parte da minha jornada de aprendizado durante a Imersão Front-End da Alura. A Imersão Front-End me proporcionou uma excelente oportunidade para aprimorar minhas habilidades de desenvolvimento web.
 
