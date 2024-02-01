@@ -256,7 +256,17 @@
     gap: var(--grid-gap);
     grid-template-columns: repeat(var(--column-count), minmax(0, 1fr));
     min-width: var(--min-container-width);
+    max-height: 60vh;
+    overflow-y: auto;
   }
+
+  .grid-container::-webkit-scrollbar{
+    width: 1px;
+}
+
+.grid-container::-webkit-scrollbar-thumb{
+    background-color: transparent;
+}
 
   .artist-card {
     background: #181818;
