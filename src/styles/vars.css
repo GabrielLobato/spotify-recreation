@@ -30,6 +30,7 @@
   --card14: rgb(0, 30, 80);
   --card15: rgb(60, 30, 80);
 
-  --grid-gap: 24px;
+  --grid-gap: 50px;
   --column-count: 5;
+  --min-container-width:372px;
 }

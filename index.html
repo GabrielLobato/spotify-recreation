@@ -91,8 +91,8 @@
             </nav>
 
             <!-- PLAYLIST -->
-            <div class="playlist-container">
-                <div id="result-playlists">
+            <div class="playlist-container" id="playlist-container">
+                <div id="result-playlists" class="">
                     <div class="playlist">
                         <!-- BOM DIA | TARDE | NOITE -->
                         <h1 id="greeting"></h1>
@@ -229,8 +229,10 @@
                 </div>
 
                 <div id="result-artist" class="hidden">
-                    <div class="grid-container">
-                        <div class="artist-card" id="">
+                    <div class="grid-container" id="grid-container">
+
+                    <div class="hidden">
+                        <div class="artist-card" id="artist-card">
                             <div class="card-img">
                                 <img id="artist-img" class="artist-img">
                                 <div class="play">
@@ -238,11 +240,13 @@
                                 </div>
                             </div>
                             <div class="card-text">
-                                <a title="Foo Fighters" class="vst" href=""></a>
+                                <a title="" class="vst" href=""></a>
                                 <span class="artist-name" id="artist-name"></span>
                                 <span class="artist-category">Artista</span>
                             </div>
                         </div>
+                    </div>
+
                     </div>
                 </div>
 
