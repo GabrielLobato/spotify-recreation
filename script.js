@@ -4,9 +4,6 @@ const resultPlaylist = document.getElementById('result-playlists');
 const gridContainer = document.getElementById('grid-container');
 
 
-
-
-
 function requestApi(searchTerm) {
     const url = `http://localhost:3000/artists?name_like=${searchTerm}&_sort=name&_order=asc`;
     fetch(url)
@@ -20,7 +17,7 @@ function displayResults(result) {
     let current = 1;
     resultPlaylist.classList.add('hidden');
 
-    while(gridContainer.firstChild){gridContainer.removeChild(gridContainer.firstChild)}
+    while (gridContainer.firstChild) { gridContainer.removeChild(gridContainer.firstChild) }
 
     result.forEach((element) => {
         cloneComponent(current);
@@ -29,13 +26,13 @@ function displayResults(result) {
         const artistImage = currentArtist.querySelector('.artist-img');
         artistName.innerText = element.name;
         artistImage.src = element.urlImg;
-        current ++;
+        current++;
     });
 
     resultArtist.classList.remove('hidden');
 }
 
-function cloneComponent(id){
+function cloneComponent(id) {
     const original = document.getElementById('artist-card');
     const clone = original.cloneNode(true);
     clone.id = `artist-card${id}`;
@@ -45,7 +42,7 @@ function cloneComponent(id){
 
 
 
-document.addEventListener('input', function() {
+document.addEventListener('input', function () {
     const searchInput = document.getElementById('search-input');
     const searchTerm = searchInput.value.toLowerCase();
     if (searchTerm === '') {
